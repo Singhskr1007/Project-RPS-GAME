@@ -8,8 +8,9 @@ if (!score) {
         Ties: 0
     };
 }
-updateScore();  
 
+updateScore();  
+//PICKMOVE FUNCTION TO PICK ANY RANDOM MOVE
 function pickMove() {
     const randomno = Math.random()
     let ComputerMove = '';
@@ -25,6 +26,7 @@ function pickMove() {
     return ComputerMove;
 }
 
+// Update Score Function 
 function updateScore() {
     document.querySelector('.js-score').innerHTML = `Wins : ${score.Wins}  &nbsp;  Losses : ${score.Losses}   &nbsp  Ties : ${score.Ties}`;
 }
@@ -144,5 +146,28 @@ function play(playerMove) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
     
 }
