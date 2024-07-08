@@ -51,16 +51,6 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
-.glass {
-    background: linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(0px);
-    border-radius: 0;
-    border: 0px solid rgba(255,255,255,0.18);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
-    margin: 10px 60px;
-    padding: 20px;
-}
 .js-score {
     margin-top: 60px;
 }
@@ -119,10 +109,6 @@ a {
         transform: scale(1.1);
         box-shadow: 0 0 20px 4px #66FCF1;
     }
-    .glass {
-        margin: 10px 30px;
-        padding: 15px;
-    }
     .resetbtn, .auto-play {
         width: 30%;
         font-size: 0.8em;
@@ -152,11 +138,7 @@ a {
         transform: scale(1.1);
         box-shadow: 0 0 20px 4px #66FCF1;
     }
-    .glass {
-        margin: 10px 20px;
-        padding: 10px;
-    }
-    .resetbtn, .auto-play {
+      .resetbtn, .auto-play {
         width: 50%;
         font-size: 0.7em;
         box-shadow: 0 0 10px 2px #66FCF1;
