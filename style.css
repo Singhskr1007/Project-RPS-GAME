@@ -4,17 +4,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-
 p {
     font-weight: bold;
     font-size: 1.4rem;
     margin: 20px;
 }
-
 h1 {
     margin: 20px 2px 40px 20px;
 }
-
 .title {
     font-size: 8rem;
     font-weight: bold;
@@ -23,13 +20,11 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
-
 .moves {
     border: none;
     height: 50px;
     padding: 10px;
 }
-
 .move-btn {
     border-radius: 50%;
     background-color: black;
@@ -42,28 +37,23 @@ h1 {
     box-shadow: 0 0 10px 2px #66FCF1;
     transition: transform 0.3s, box-shadow 0.3s;
 }
-
 .move-btn:hover {
     transform: scale(1.1);
     box-shadow: 0 0 20px 4px #66FCF1;
 }
-
 .js-result {
     font-size: 25px;
     font-weight: bold;
     margin: 10px;
 }
-
 .jersey-10-regular {
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
 .js-score {
     margin-top: 60px;
 }
-
 .resetbtn, .auto-play {
     border: none;
     font-size: 1em;
@@ -78,14 +68,12 @@ h1 {
     box-shadow: 0 0 10px 2px #66FCF1;
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s;
 }
-
 .resetbtn:hover, .auto-play:hover {
     transform: scale(1.1);
     box-shadow: 0 0 20px 4px #66FCF1;
     background-color: #66FCF1;
     color: black;
 }
-
 .sub {
     color: white;
     font-size: 1.3rem;
@@ -95,29 +83,24 @@ h1 {
     font-weight: bold;
     opacity: 0.9;
 }
-
 .sub:hover {
     opacity: 1;
     transform: scale(1.05);
     background-color: #E64833;
 }
-
 a {
     text-decoration: none;
     color: white;
 }
-
 .responsive-image {
     max-width: 100%;
     height: auto;
 }
-
 .socials {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .linkedin, .github {
     opacity: 0.7;
     text-align: center;
@@ -129,108 +112,89 @@ a {
     box-shadow: 0 0 10px 2px #66FCF1;
     transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
 }
-
 .linkedin:hover, .github:hover {
     opacity: 1;
     box-shadow: 0 0 10px 3px #66FCF1;
     transform: scale(1.1);
 }
-
 /* Media Queries */
 @media (max-width: 768px) {
     .title {
         font-size: 4rem;
     }
-
     .move-btn {
         height: 80px;
         width: 80px;
         box-shadow: 0 0 10px 2px #66FCF1;
     }
-
     .move-btn:hover {
         transform: scale(1.1);
         box-shadow: 0 0 20px 4px #66FCF1;
     }
-
     .resetbtn, .auto-play {
         width: 30%;
         font-size: 0.8em;
         box-shadow: 0 0 10px 2px #66FCF1;
     }
-
     .resetbtn:hover, .auto-play:hover {
         transform: scale(1.1);
         box-shadow: 0 0 20px 4px #66FCF1;
         background-color: #66FCF1;
         color: black;
     }
-
     .responsive-image {
         max-width: 100%;
         height: auto;
     }
-
     .linkedin, .github {
         height: 40px;
         width: 40px;
         transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
     }
-
     .linkedin:hover, .github:hover {
         box-shadow: 0 0 10px 3px #66FCF1;
         transform: scale(1.1);
     }
 }
-
 @media (max-width: 480px) {
     .title {
         font-size: 3rem;
     }
-
     .move-btn {
         height: 60px;
         width: 60px;
         box-shadow: 0 0 10px 2px #66FCF1;
     }
-
     .move-btn:hover {
         transform: scale(1.1);
         box-shadow: 0 0 20px 4px #66FCF1;
     }
-
     .resetbtn, .auto-play {
         width: 50%;
         font-size: 0.7em;
         box-shadow: 0 0 10px 2px #66FCF1;
     }
-
     .resetbtn:hover, .auto-play:hover {
         transform: scale(1.1);
         box-shadow: 0 0 20px 4px #66FCF1;
         background-color: #66FCF1;
         color: black;
     }
-
     p {
         font-size: 1.2rem;
     }
-
     .js-result {
         font-size: 20px;
     }
-
     .responsive-image {
         max-width: 100%;
         height: auto;
     }
-
     .linkedin, .github {
         height: 30px;
         width: 30px;
         transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
     }
-
     .linkedin:hover, .github:hover {
         box-shadow: 0 0 10px 3px #66FCF1;
         transform: scale(1.1);
