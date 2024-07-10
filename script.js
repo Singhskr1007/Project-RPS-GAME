@@ -142,32 +142,5 @@ function play(playerMove) {
 
     document.querySelector('.js-moves').innerHTML = `Your Move <img src="${playerMove}-emoji.png" alt="" class="moves">
     Computer Move <img src="${ComputerMove}-emoji.png" alt="" class="moves">`;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-    
     
 }
