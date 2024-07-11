@@ -150,10 +150,12 @@ a {
         height: 40px;
         width: 40px;
         transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
+        opacity: 1;
     }
     .linkedin:hover, .github:hover {
         box-shadow: 0 0 10px 3px #66FCF1;
         transform: scale(1.1);
+        opacity: 1;
     }
 }
 @media (max-width: 480px) {
@@ -194,9 +196,11 @@ a {
         height: 30px;
         width: 30px;
         transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
+        opacity: 1;
     }
     .linkedin:hover, .github:hover {
         box-shadow: 0 0 10px 3px #66FCF1;
         transform: scale(1.1);
+        opacity: 1;
     }
 }
