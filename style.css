@@ -115,7 +115,6 @@ a {
 .linkedin:hover, .github:hover {
     opacity: 1;
     box-shadow: 0 0 10px 3px #66FCF1;
-    transform: scale(1.1);
 }
 /* Media Queries */
 @media (max-width: 768px) {
